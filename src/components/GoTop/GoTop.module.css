@@ -1,0 +1,22 @@
+.goTopHidden{
+    display: none;
+}
+.goTop{
+    display: block;
+}
+.goTopText{
+    display: block;
+    position: fixed;
+    background: rgba(252, 248, 241, 0.8);
+    background: url(/pointer.svg);
+    box-shadow: 2px 2px 5px gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    bottom: 5%;
+    left: 90%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+}
+

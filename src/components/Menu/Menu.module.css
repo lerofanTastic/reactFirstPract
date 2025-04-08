@@ -1,0 +1,7 @@
+li, li {
+    display: inline;
+    margin-left: 50px;
+    cursor: pointer;
+    height: 100%;
+} 
+

@@ -1,0 +1,10 @@
+.logo{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: white;
+    color: #242424;
+    border-radius: 30px;  
+    padding: 10px;
+}
