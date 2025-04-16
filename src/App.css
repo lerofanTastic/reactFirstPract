@@ -5,12 +5,13 @@
   text-align: center;
 }
 .dark{
-  background: linear-gradient(0.25turn, #333333, #666666, #333333);
+  /* background: linear-gradient(0.25turn, #333333, #666666, #333333); */
+  background:  #1a1a1a;
   color: black;
 }
 .light{
   background: linear-gradient(0.25turn, #bfbfbf, #ffffff, #bfbfbf);
- color: white;
+  color: black;
 }
 .wrapper{
   display: flex;

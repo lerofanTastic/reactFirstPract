@@ -63,4 +63,12 @@ export const topAnime = [
       rating: 8.9,
       year: 2006,
     },
+    {
+      id: 9,
+      title: "Dororo",
+      description: "Sightless Hyakkimaru wields fearsome prosthetics in place of the limbs his father traded to 12 demons. When he encounters the young thief Dororo, the pair sets out to reclaim Hyakkimaru's body parts and survive the demon-infested world.",
+      image: "/dororo.jpg",
+      rating: 8.2,
+      year: 2019,
+    },
   ]
