@@ -1,0 +1,22 @@
+.info {
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+    background-color: #009999;
+    border-radius: 1vw;
+    padding: 1vh 1vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border: 3px solid;
+    z-index: 1;
+  }
+  .text {
+    margin: 0 20px 0 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+  }

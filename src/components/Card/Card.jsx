@@ -9,7 +9,7 @@ export const Card = ({
   year = "No Year :(",
 }) => {
   return (
-    <div className={`${styles.card} ${year > 2020 && styles.green}`}>
+    <div className={styles.card}>
       <div className={styles.text}>
         <h3>{title}</h3>
         <p>{description}</p>
@@ -19,7 +19,9 @@ export const Card = ({
         <img className={styles.image} src={image} alt={`${title} poster`} />
       </div>
       <div className={styles.bottom}>
-        <p>{year}</p>
+        <div className={styles.bottomYear}>
+          <p className={`${year > 2021 && styles.green}`}>{year}</p>
+        </div>
         <div className={styles.bottomRating}>
           <p>{rating}</p>
         </div>

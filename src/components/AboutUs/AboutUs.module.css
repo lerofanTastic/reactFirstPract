@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* height: 73vh; */
+    
+}
+.info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 1px solid white;
+    line-height: 0;
+}
+
+.verticalText {
+    height: 64.3vh;
+    padding: 0 5vw;
+    writing-mode: vertical-lr;
+    text-transform: uppercase;
+    text-orientation: upright;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}

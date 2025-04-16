@@ -4,7 +4,7 @@ import { Main } from "./components/Main/Main";
 import { Footer } from "./components/Footer/Footer";
 // import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { About } from "./components/About/About";
+import { AboutUs } from "./components/AboutUs/AboutUs";
 import { AnimeCard } from "./components/AnimeCard/AnimeCard";
 import { topAnime } from "./constants/topAnime";
 import { AnimeList } from "./components/AnimeList/AnimeList";
@@ -19,6 +19,8 @@ import { ThemeContext } from "./context/theme/themeContext";
 import { Login } from "./components/Login/Login";
 import { GoTop } from "./components/GoTop/GoTop";
 import { ApiCard } from "./components/ApiCard/ApiCard";
+import { About } from "./components/About/About";
+import { Contacts } from "./components/Contacts/Contacts";
 
 function App() {
   const [lang, setLang] = useState("ru");
@@ -39,9 +41,9 @@ function App() {
             path="/anime-list/:id"
             element={<AnimeCard animeList={topAnime} />}
           />
-          <Route path="/about-us" element={<About />}>
-            <Route path="contacts" element={<div>contacts</div>} />
-            <Route path="about" element={<div>about</div>} />
+          <Route path="/about-us" element={<AboutUs />}>
+            <Route path="contacts" element={<Contacts />} />
+            <Route path="about" element={<About />} />
           </Route>
           <Route
             path="/anime-list"
