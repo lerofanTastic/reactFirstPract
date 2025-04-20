@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    width: 40%;
+}
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    border: 5px solid black;
+    object-fit: cover;
+}
